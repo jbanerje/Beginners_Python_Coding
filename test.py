@@ -1,12 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 15 13:17:09 2017
+import random
+import sys
+import os
+import matplotlib
 
-@author: jagan
-"""
-
-var1 = int(input("First Number:"))
-print('var1:', var1)
-var2 = int(input("Second Number:"))
-print('var2:', var2)
-print(var1+var2)
+a=10
+b=20
+#Comment
+random_num = random.randrange(0,100)
+while(random_num != 15):
+    print(random_num)
+    random_num = random.randrange(0,100)
