@@ -1,12 +1,15 @@
-import random
-import sys
-import os
-import matplotlib
+#-------------------------------------------------------#
+# Author@ : Jagannath Banerjee
+# Date    : 12/21/2017
+# Author@ : First Pyzo Program
+#-------------------------------------------------------#
 
-a=10
-b=20
-#Comment
-random_num = random.randrange(0,100)
-while(random_num != 15):
-    print(random_num)
-    random_num = random.randrange(0,100)
+def main():
+    print("Hello")
+    num1=int(input("Enter Num1:"))
+    num2=int(input("Enter Num2:"))
+    print(num1 + num2)
+    
+
+if __name__=="__main__":
+    main()
